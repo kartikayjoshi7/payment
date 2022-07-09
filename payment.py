@@ -1,4 +1,4 @@
-import instana
+
 import os
 import sys
 import time
@@ -17,6 +17,7 @@ from rabbitmq import Publisher
 # Prometheus
 import prometheus_client
 from prometheus_client import Counter, Histogram
+import instana
 
 app = Flask(__name__)
 app.logger.setLevel(logging.INFO)
