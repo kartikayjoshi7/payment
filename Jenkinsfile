@@ -5,4 +5,6 @@ env.COMPONENT = "payment"
 env.BUILD_LABEL = "WORKSTATION"
 
 //library
-python()
+// python()
+
+immutable_python()
